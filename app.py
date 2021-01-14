@@ -11,7 +11,7 @@ app = Flask(__name__)
 CORS(app)
 
 
-# @cross_origin()
+# @cross_origin() shiv
 class ClientApp:
     def __init__(self):
         self.filename = "inputImage.jpg"
